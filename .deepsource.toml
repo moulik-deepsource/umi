@@ -14,4 +14,26 @@ enabled = true
     "nodejs",
     "browser"
   ]
+  plugins = ["react"]
   dialect = "typescript"
+  dependency_file_paths = [
+      "packages/ast/package.json", 
+      "packages/babel-plugin-auto-css-modules/package.json",
+      "packages/babel-plugin-import-to-await-require/package.json",
+      "packages/babel-plugin-lock-core-js-3/package.json",
+      "packages/babel-preset-umi/package.json",
+      "packages/bundler-utils/package.json",
+      "packages/bundler-webpack/package.json",
+      "packages/core/package.json",
+      "packages/create-umi-app/package.json",
+      "packages/preset-built-in/package.json",
+      "packages/renderer-react/package.json",
+      "packages/renderer-mpa/package.json",
+      "packages/runtime/package.json",
+      "packages/server/package.json",
+      "packages/test/package.json",
+      "packages/test-utils/package.json",
+      "packages/types/package.json",
+      "packages/umi/package.json",
+      "packages/utils/package.json"  
+  ]
